@@ -1,0 +1,42 @@
+.form-container {
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.form-contact-us {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+span {
+    color: red;
+}
+
+input {
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-box:last-child {
+    height: 130px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
